@@ -24,7 +24,7 @@ public class Exercicio02IOCharacter {
             line = scan.nextLine();
         }while (!(line.equalsIgnoreCase("fim")));
 
-        pw.println("Arquivo \"%s\" salvo com sucesso" + f.getName());
+        pw.printf("Arquivo \"%s\" salvo com sucesso", f.getName());
 
         scan.close();
         bw.close();
